@@ -1,8 +1,0 @@
-course_id,name,level,prerequisites,credits,difficulty,semester_offered
-CSE1010,Intro to CS,1000,[],3,Medium,Both
-CSE2010,Data Structures,2000,['CSE1010'],4,Easy,Both
-CSE2100,Discrete Math,2000,['MATH1131'],3,Easy,Spring
-CSE3500,Algorithms,3000,"['CSE2010', 'CSE2100']",4,Medium,Fall
-MATH1131,Calculus I,1000,[],3,Easy,Fall
-MATH2210,Linear Algebra,2000,['MATH1131'],4,Easy,Both
-STAT3025,Probability & Stats,3000,['MATH2210'],4,Medium,Spring

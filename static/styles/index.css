@@ -1,6 +1,55 @@
-body{
-    background-color: aqua;
+/* General Reset */
+body, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
-#container{
-    background-color: white;
+
+/* Background Styling */
+body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centering the Container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styling */
+h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Links Styling */
+.links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    background: #f1c40f;
+    color: #000;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    background: #d4ac0d;
+    transform: scale(1.1);
 }
