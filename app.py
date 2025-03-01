@@ -1,14 +1,18 @@
-from flask import Flask, jsonify, request
-import json
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
-with open("studentdata.json", "r") as json_file:
-    studentdata = json.load(json_file)
+@app.route("/")
+def home():
+    return render_template("index.html")
 
-@app.route("/student/<id>", methods=["GET"])
-def home(id):
-    return jsonify(studentdata['students'][int(id)])
+@app.route("/quantum")
+def quantum():
+    return render_template("quantum.html")
+
+@app.route("/advisor")
+def advisor():
+    return render_template("advisor.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
