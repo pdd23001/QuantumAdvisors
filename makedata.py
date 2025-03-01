@@ -15,7 +15,7 @@ class Class:
         self.building = building
         self.prof = prof
         self.classId = classId
-        time = time
+        self.time = time
     
     def todict(self):
         return self.__dict__
@@ -82,8 +82,7 @@ for i in range(10):
 data = {
     "classes": [c.__dict__ for c in classes],
     "students": [s.__dict__ for s in users]
-}
-        
+}  
 
 with open("studentdata.json", "w") as json_file:
     json.dump(data, json_file, indent=4)
