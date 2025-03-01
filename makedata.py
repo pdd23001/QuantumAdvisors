@@ -7,6 +7,15 @@ def randletter():
 def randomItem(arr):
     return arr[random.randint(0,len(arr)-1)]
 
+def randomClass():
+    x = random.random()
+    if x < .6:
+        return random.randint(0,14)
+    if x < .9:
+        return random.randint(15,29)
+    else:
+        return random.randint(30,53)
+    
 class Class:
     
     def __init__(self, subject, number, building, prof, classId, time):
@@ -30,8 +39,9 @@ class Student:
     def todict(self):
         return self.__dict__
         
-subjects = ["MATH","CSE","ACCT","ANSC","BIOL","CHEM","BUSI","ART","FNCE","MENT","CHIN","COMM","ERTH","ECON","GERM","HIST"
- "LING","MKTG","MSE","MUSI","PHYS","PHIL","STAT","WGSS","PATH","NURS","NRE","AFRI"]
+subjects = [
+    "MATH","CSE","ACCT","ANSC","BIOL","CHEM","BUSI","ART","FNCE","MENT","CHIN","COMM","ERTH","ECON","GERM","HIST"
+ ,"LING","MKTG","MSE","MUSI","PHYS","PHIL","STAT","WGSS","PATH","NURS","NRE","AFRI"]
 
 first_names = [
     "Aaron", "Abigail", "Adam", "Alexander", "Alice", "Amanda", "Andrew", "Angela", 
@@ -58,23 +68,24 @@ buildings = [
 
 classes = []
 
-for i in range(60):
+for i in range(54):
     subject = randomItem(subjects)
     num = 10*random.randint(100,399)
     building = randomItem(buildings)
     prof = randomItem(first_names)+" " + randomItem(last_names)
-    time = random.randint(10,18)
+    time = random.randint(9,18)
     classes.append(Class(subject, num, building, prof, i, time))
 
 users = []
 
-for i in range(10):
+for i in range(10000):
     lets = randletter()+randletter()+randletter()
-    nums = str(random.randint(10000,30000))
+    nums = str(random.randint(10000,29999))
     netid = lets+nums
     myclasses = set()
     while len(myclasses)<5:
-        myclasses.add(random.randint(0,len(classes)))
+        x = randomClass()
+        myclasses.add(randomClass())
     myclasses = list(myclasses)
     year = random.randint(2025,2029)
     users.append(Student(netid, myclasses,year))
@@ -84,5 +95,8 @@ data = {
     "students": [s.__dict__ for s in users]
 }  
 
+with open("studentdata.json", "w") as json_file:
+    json.dump({}, json_file, indent=4)  # Overwrites with an empty JSON object
+    
 with open("studentdata.json", "w") as json_file:
     json.dump(data, json_file, indent=4)
