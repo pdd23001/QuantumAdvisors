@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-import final_scheduler
+import qaoa_scheduler
 import scheduling
 import hashlib
 import advisor as advis
@@ -21,7 +21,7 @@ def run_quantum():
     data = request.json
     exams = int(data.get('exams'))
     slots = int(data.get('slots'))
-    r = final_scheduler.func(exams,slots)
+    r = qaoa_scheduler.func(exams,slots)
     return jsonify(r)
 
 @app.route("/run_classical",methods=["POST"])
