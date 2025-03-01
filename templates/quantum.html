@@ -23,7 +23,16 @@
 
     <!-- Classical Algorithm Button (Separated) -->
     <div class="classical-container">
-        <button type="button" id="runClassical" class="classical-btn">Run Classical Algorithm</button>
+        <button type="button" id="runClassical" class="classical-btn">Run Algorithm on Database</button>
+    </div>
+
+    <!-- Modal Popup for Results -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Quantum Response:</h2>
+            <pre id="modalResponse"></pre> <!-- Placeholder for result -->
+        </div>
     </div>
 
     <script>
@@ -37,7 +46,9 @@
             });
 
             let result = await response.json();
-            alert(result.response);
+            // Show the result in the modal
+            document.getElementById("modalResponse").textContent = result.response;
+            document.getElementById("myModal").style.display = "block";
         });
 
         document.getElementById("runClassical").addEventListener("click", async function() {
@@ -48,7 +59,21 @@
             });
 
             let result = await response.json();
-            alert(result.response);
+            // Show the result in the modal
+            document.getElementById("modalResponse").textContent = result.response;
+            document.getElementById("myModal").style.display = "block";
+        });
+
+        // Close the modal when the 'X' is clicked
+        document.querySelector(".close").addEventListener("click", function() {
+            document.getElementById("myModal").style.display = "none";
+        });
+
+        // Close the modal if the user clicks outside of it
+        window.addEventListener("click", function(event) {
+            if (event.target === document.getElementById("myModal")) {
+                document.getElementById("myModal").style.display = "none";
+            }
         });
     </script>
 </body>

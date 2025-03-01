@@ -1,0 +1,8 @@
+course_id,name,level,prerequisites,credits,difficulty,semester_offered
+CSE1010,Intro to CS,1000,[],4,Easy,Both
+CSE2010,Data Structures,2000,['CSE1010'],4,Easy,Both
+CSE2100,Discrete Math,2000,['MATH1131'],3,Medium,Both
+CSE3500,Algorithms,3000,"['CSE2010', 'CSE2100']",3,Medium,Both
+MATH1131,Calculus I,1000,[],3,Medium,Both
+MATH2210,Linear Algebra,2000,['MATH1131'],3,Hard,Spring
+STAT3025,Probability & Stats,3000,['MATH2210'],3,Medium,Spring

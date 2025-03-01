@@ -90,5 +90,3 @@ def find_best():
     res += "\nBest: " + str(best_score/100)
     
     return {'response':res}
-
-print(find_best())

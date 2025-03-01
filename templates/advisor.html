@@ -3,8 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advisor Query</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/advisor.css') }}">
 </head>
 <body>
-    <h1>Advisor</h1>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h1>Query Advisor</h1>
+
+        <!-- Form to input student ID and query -->
+        <form id="advisorForm">
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" required placeholder="Enter Student ID">
+
+            <label for="queryBox">Query:</label>
+            <input type="text" id="queryBox" name="queryBox" placeholder="Enter your query here" required>
+
+            <button type="button" class="submit-btn" id="submitBtn">Submit Query</button>
+        </form>
+    </div>
+
+    <!-- Pop-up Modal -->
+    <div id="responseModal" class="response-modal">
+        <div class="response-modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Response from Advisor</h2>
+            <p id="responseMessage">Loading...</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("submitBtn").addEventListener("click", async function() {
+            let studentId = document.getElementById("studentId").value;
+            let query = document.getElementById("queryBox").value;
+            
+            if (studentId.trim() === "" || query.trim() === "") {
+                alert("Please fill out both fields.");
+                return;
+            }
+
+            let response = await fetch('/advisor_resp', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ studentId: studentId, query: query })
+            });
+
+            if (response.ok) {
+                let result = await response.json();
+                document.getElementById("responseMessage").textContent = result.response || "No message received.";
+                document.getElementById("responseModal").style.display = "block";
+            } else {
+                alert("There was an error querying the advisor.");
+            }
+        });
+
+        // Close the pop-up when the 'X' is clicked
+        document.querySelector(".close-btn").addEventListener("click", function() {
+            document.getElementById("responseModal").style.display = "none";
+        });
+
+        // Close the pop-up if clicked outside the modal
+        window.onclick = function(event) {
+            if (event.target == document.getElementById("responseModal")) {
+                document.getElementById("responseModal").style.display = "none";
+            }
+        };
+    </script>
+
 </body>
 </html>
