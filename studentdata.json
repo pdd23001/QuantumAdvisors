@@ -1,536 +1,596 @@
 {
     "classes": [
         {
-            "subject": "NRE",
-            "number": 1930,
-            "building": "PBS",
-            "prof": "Diana Collins",
-            "classId": 0
-        },
-        {
-            "subject": "FNCE",
-            "number": 3830,
-            "building": "GANT",
-            "prof": "Emily Hughes",
-            "classId": 1
-        },
-        {
-            "subject": "PHIL",
-            "number": 2460,
+            "subject": "WGSS",
+            "number": 3340,
             "building": "TLS",
-            "prof": "Caroline Miller",
-            "classId": 2
-        },
-        {
-            "subject": "PHYS",
-            "number": 1970,
-            "building": "CHEM",
-            "prof": "Evelyn Clark",
-            "classId": 3
-        },
-        {
-            "subject": "STAT",
-            "number": 2070,
-            "building": "SHH",
-            "prof": "David Cox",
-            "classId": 4
+            "prof": "Diana Lee",
+            "classId": 0,
+            "time": 14
         },
         {
             "subject": "GERM",
-            "number": 3580,
-            "building": "SHH",
-            "prof": "Adam Cox",
-            "classId": 5
-        },
-        {
-            "subject": "MSE",
-            "number": 2140,
-            "building": "BCH",
-            "prof": "Kevin Jackson",
-            "classId": 6
-        },
-        {
-            "subject": "ECON",
-            "number": 3320,
-            "building": "TLS",
-            "prof": "Adam Baker",
-            "classId": 7
-        },
-        {
-            "subject": "PHIL",
-            "number": 1230,
-            "building": "MUSB",
-            "prof": "Evelyn Morgan",
-            "classId": 8
-        },
-        {
-            "subject": "MUSI",
-            "number": 1090,
-            "building": "PBS",
-            "prof": "John Brown",
-            "classId": 9
-        },
-        {
-            "subject": "CHIN",
-            "number": 1060,
-            "building": "MUSB",
-            "prof": "Charlotte Diaz",
-            "classId": 10
-        },
-        {
-            "subject": "WGSS",
-            "number": 1280,
-            "building": "MUSB",
-            "prof": "John Miller",
-            "classId": 11
-        },
-        {
-            "subject": "ECON",
-            "number": 3720,
-            "building": "CHEM",
-            "prof": "Joseph Harris",
-            "classId": 12
-        },
-        {
-            "subject": "WGSS",
-            "number": 1320,
-            "building": "DRMU",
-            "prof": "Joseph Richardson",
-            "classId": 13
-        },
-        {
-            "subject": "CHEM",
-            "number": 3320,
+            "number": 3490,
             "building": "AUST",
-            "prof": "Gabriel Bennett",
-            "classId": 14
+            "prof": "Aaron Evans",
+            "classId": 1,
+            "time": 12
         },
         {
-            "subject": "GERM",
-            "number": 3410,
-            "building": "MUSB",
-            "prof": "James Martinez",
-            "classId": 15
-        },
-        {
-            "subject": "ACCT",
-            "number": 1480,
-            "building": "GENT",
-            "prof": "Christopher Bailey",
-            "classId": 16
-        },
-        {
-            "subject": "HISTLING",
-            "number": 2500,
-            "building": "BCH",
-            "prof": "Anthony Perez",
-            "classId": 17
-        },
-        {
-            "subject": "MATH",
-            "number": 3580,
-            "building": "E2",
-            "prof": "Andrew Gonzalez",
-            "classId": 18
-        },
-        {
-            "subject": "MSE",
-            "number": 2110,
-            "building": "ITE",
-            "prof": "Angela Cooper",
-            "classId": 19
-        },
-        {
-            "subject": "GERM",
-            "number": 2910,
-            "building": "E2",
-            "prof": "John Carter",
-            "classId": 20
-        },
-        {
-            "subject": "ANSC",
-            "number": 3410,
-            "building": "TLS",
-            "prof": "Ethan King",
-            "classId": 21
-        },
-        {
-            "subject": "PHIL",
-            "number": 3110,
-            "building": "SHH",
-            "prof": "Lucas Campbell",
-            "classId": 22
-        },
-        {
-            "subject": "ACCT",
-            "number": 1790,
-            "building": "CHEM",
-            "prof": "Benjamin Collins",
-            "classId": 23
-        },
-        {
-            "subject": "BIOL",
-            "number": 2150,
+            "subject": "MKTG",
+            "number": 1760,
             "building": "DRMU",
-            "prof": "Daniel Cox",
-            "classId": 24
-        },
-        {
-            "subject": "FNCE",
-            "number": 3940,
-            "building": "MCHU",
-            "prof": "Laura Roberts",
-            "classId": 25
-        },
-        {
-            "subject": "NRE",
-            "number": 2540,
-            "building": "BUSN",
-            "prof": "Grace Lee",
-            "classId": 26
+            "prof": "Emily Roberts",
+            "classId": 2,
+            "time": 13
         },
         {
             "subject": "AFRI",
-            "number": 1890,
-            "building": "BUSN",
-            "prof": "Daniel Foster",
-            "classId": 27
-        },
-        {
-            "subject": "FNCE",
-            "number": 2830,
-            "building": "GANT",
-            "prof": "Dominic Foster",
-            "classId": 28
-        },
-        {
-            "subject": "NRE",
-            "number": 3530,
-            "building": "MONT",
-            "prof": "David Hughes",
-            "classId": 29
-        },
-        {
-            "subject": "MSE",
-            "number": 1060,
-            "building": "SHH",
-            "prof": "Ethan Harris",
-            "classId": 30
-        },
-        {
-            "subject": "NURS",
-            "number": 1540,
-            "building": "PBS",
-            "prof": "Brian Nelson",
-            "classId": 31
+            "number": 1530,
+            "building": "BCH",
+            "prof": "Emily Miller",
+            "classId": 3,
+            "time": 16
         },
         {
             "subject": "STAT",
-            "number": 2520,
-            "building": "MONT",
-            "prof": "Edward Martinez",
-            "classId": 32
-        },
-        {
-            "subject": "WGSS",
-            "number": 2570,
-            "building": "CHEM",
-            "prof": "Jonathan Gonzalez",
-            "classId": 33
-        },
-        {
-            "subject": "GERM",
-            "number": 1310,
-            "building": "PBS",
-            "prof": "Grace Green",
-            "classId": 34
-        },
-        {
-            "subject": "ERTH",
-            "number": 3780,
-            "building": "MONT",
-            "prof": "Ethan Roberts",
-            "classId": 35
-        },
-        {
-            "subject": "MUSI",
-            "number": 1110,
-            "building": "ITE",
-            "prof": "Lucas Perez",
-            "classId": 36
-        },
-        {
-            "subject": "MKTG",
-            "number": 2930,
+            "number": 1070,
             "building": "GENT",
-            "prof": "Evelyn Cooper",
-            "classId": 37
-        },
-        {
-            "subject": "BUSI",
-            "number": 1280,
-            "building": "PBS",
-            "prof": "Kevin Green",
-            "classId": 38
-        },
-        {
-            "subject": "PHYS",
-            "number": 2170,
-            "building": "CHEM",
-            "prof": "Aaron Martinez",
-            "classId": 39
-        },
-        {
-            "subject": "ART",
-            "number": 1380,
-            "building": "BCH",
-            "prof": "Emily Lee",
-            "classId": 40
-        },
-        {
-            "subject": "CHIN",
-            "number": 3280,
-            "building": "BCH",
-            "prof": "Charlotte Richardson",
-            "classId": 41
-        },
-        {
-            "subject": "MENT",
-            "number": 2600,
-            "building": "MONT",
-            "prof": "Kevin Hill",
-            "classId": 42
-        },
-        {
-            "subject": "PHIL",
-            "number": 3830,
-            "building": "TLS",
-            "prof": "Kevin Gonzalez",
-            "classId": 43
-        },
-        {
-            "subject": "MKTG",
-            "number": 3980,
-            "building": "PBS",
-            "prof": "Angela Martinez",
-            "classId": 44
-        },
-        {
-            "subject": "BIOL",
-            "number": 2640,
-            "building": "AUST",
-            "prof": "Aaron Roberts",
-            "classId": 45
-        },
-        {
-            "subject": "MSE",
-            "number": 2720,
-            "building": "MCHU",
-            "prof": "Eleanor Cooper",
-            "classId": 46
-        },
-        {
-            "subject": "BIOL",
-            "number": 3750,
-            "building": "ITE",
-            "prof": "Diana Harris",
-            "classId": 47
-        },
-        {
-            "subject": "CHIN",
-            "number": 1490,
-            "building": "BCH",
-            "prof": "Isabella Perez",
-            "classId": 48
-        },
-        {
-            "subject": "WGSS",
-            "number": 2530,
-            "building": "ITE",
-            "prof": "Aaron Bailey",
-            "classId": 49
-        },
-        {
-            "subject": "HISTLING",
-            "number": 1830,
-            "building": "ITE",
-            "prof": "Adam Foster",
-            "classId": 50
-        },
-        {
-            "subject": "PHIL",
-            "number": 1930,
-            "building": "AUST",
-            "prof": "Emma Lewis",
-            "classId": 51
+            "prof": "Andrew Campbell",
+            "classId": 4,
+            "time": 11
         },
         {
             "subject": "ACCT",
-            "number": 2260,
-            "building": "MONT",
-            "prof": "Grace Cooper",
-            "classId": 52
-        },
-        {
-            "subject": "ART",
-            "number": 1660,
-            "building": "MUSB",
-            "prof": "Eleanor Miller",
-            "classId": 53
-        },
-        {
-            "subject": "MSE",
-            "number": 2530,
+            "number": 2230,
             "building": "ITE",
-            "prof": "David Nelson",
-            "classId": 54
+            "prof": "Eleanor Davis",
+            "classId": 5,
+            "time": 11
+        },
+        {
+            "subject": "STAT",
+            "number": 2700,
+            "building": "GANT",
+            "prof": "Kevin Martinez",
+            "classId": 6,
+            "time": 18
         },
         {
             "subject": "MENT",
-            "number": 3190,
-            "building": "TLS",
-            "prof": "Amanda Harris",
-            "classId": 55
+            "number": 3990,
+            "building": "MONT",
+            "prof": "Aaron Flores",
+            "classId": 7,
+            "time": 11
+        },
+        {
+            "subject": "ERTH",
+            "number": 2250,
+            "building": "BUSN",
+            "prof": "Ethan Mitchell",
+            "classId": 8,
+            "time": 12
+        },
+        {
+            "subject": "ACCT",
+            "number": 2030,
+            "building": "BCH",
+            "prof": "Isabella Flores",
+            "classId": 9,
+            "time": 17
+        },
+        {
+            "subject": "COMM",
+            "number": 1170,
+            "building": "DRMU",
+            "prof": "Isabella Johnson",
+            "classId": 10,
+            "time": 17
         },
         {
             "subject": "ECON",
-            "number": 2020,
-            "building": "CHEM",
-            "prof": "Andrew Bennett",
-            "classId": 56
+            "number": 3380,
+            "building": "BUSN",
+            "prof": "Charlotte Cooper",
+            "classId": 11,
+            "time": 12
         },
         {
-            "subject": "PATH",
-            "number": 3710,
+            "subject": "HISTLING",
+            "number": 3080,
+            "building": "GANT",
+            "prof": "James Hill",
+            "classId": 12,
+            "time": 18
+        },
+        {
+            "subject": "AFRI",
+            "number": 2790,
+            "building": "CHEM",
+            "prof": "Ethan Bailey",
+            "classId": 13,
+            "time": 18
+        },
+        {
+            "subject": "NURS",
+            "number": 1800,
             "building": "AUST",
-            "prof": "Andrew Martinez",
-            "classId": 57
+            "prof": "Eleanor Perez",
+            "classId": 14,
+            "time": 15
+        },
+        {
+            "subject": "NURS",
+            "number": 3970,
+            "building": "MCHU",
+            "prof": "Isabella Bailey",
+            "classId": 15,
+            "time": 11
+        },
+        {
+            "subject": "FNCE",
+            "number": 2730,
+            "building": "DRMU",
+            "prof": "Emily Cox",
+            "classId": 16,
+            "time": 16
+        },
+        {
+            "subject": "MATH",
+            "number": 1370,
+            "building": "DRMU",
+            "prof": "Benjamin Hughes",
+            "classId": 17,
+            "time": 16
+        },
+        {
+            "subject": "MKTG",
+            "number": 1740,
+            "building": "MUSB",
+            "prof": "Elizabeth Hughes",
+            "classId": 18,
+            "time": 16
+        },
+        {
+            "subject": "MKTG",
+            "number": 1380,
+            "building": "ITE",
+            "prof": "Gabriel Bennett",
+            "classId": 19,
+            "time": 16
+        },
+        {
+            "subject": "MKTG",
+            "number": 1610,
+            "building": "TLS",
+            "prof": "Benjamin Bennett",
+            "classId": 20,
+            "time": 18
+        },
+        {
+            "subject": "COMM",
+            "number": 1820,
+            "building": "PBS",
+            "prof": "Aaron Roberts",
+            "classId": 21,
+            "time": 12
+        },
+        {
+            "subject": "STAT",
+            "number": 1050,
+            "building": "CHEM",
+            "prof": "Brian Garcia",
+            "classId": 22,
+            "time": 17
+        },
+        {
+            "subject": "MENT",
+            "number": 3490,
+            "building": "GANT",
+            "prof": "Lucas Bennett",
+            "classId": 23,
+            "time": 10
+        },
+        {
+            "subject": "MUSI",
+            "number": 2070,
+            "building": "AUST",
+            "prof": "Emma Hughes",
+            "classId": 24,
+            "time": 12
+        },
+        {
+            "subject": "PHIL",
+            "number": 1560,
+            "building": "TLS",
+            "prof": "Adam Collins",
+            "classId": 25,
+            "time": 16
+        },
+        {
+            "subject": "MENT",
+            "number": 2700,
+            "building": "ITE",
+            "prof": "Jacob Clark",
+            "classId": 26,
+            "time": 17
+        },
+        {
+            "subject": "WGSS",
+            "number": 2900,
+            "building": "ITE",
+            "prof": "John Carter",
+            "classId": 27,
+            "time": 12
         },
         {
             "subject": "CHIN",
-            "number": 2590,
-            "building": "ITE",
-            "prof": "Lucas Harris",
-            "classId": 58
+            "number": 1090,
+            "building": "MCHU",
+            "prof": "Brian Baker",
+            "classId": 28,
+            "time": 10
+        },
+        {
+            "subject": "NRE",
+            "number": 3760,
+            "building": "GANT",
+            "prof": "Alice Baker",
+            "classId": 29,
+            "time": 13
+        },
+        {
+            "subject": "CHIN",
+            "number": 3430,
+            "building": "MONT",
+            "prof": "Elizabeth Perez",
+            "classId": 30,
+            "time": 15
+        },
+        {
+            "subject": "ART",
+            "number": 1350,
+            "building": "BUSN",
+            "prof": "Brian Cooper",
+            "classId": 31,
+            "time": 18
+        },
+        {
+            "subject": "MENT",
+            "number": 2100,
+            "building": "E2",
+            "prof": "Grace Mitchell",
+            "classId": 32,
+            "time": 12
+        },
+        {
+            "subject": "MUSI",
+            "number": 2700,
+            "building": "GANT",
+            "prof": "Brian Clark",
+            "classId": 33,
+            "time": 10
+        },
+        {
+            "subject": "PHYS",
+            "number": 3830,
+            "building": "E2",
+            "prof": "Emma Green",
+            "classId": 34,
+            "time": 14
+        },
+        {
+            "subject": "CHIN",
+            "number": 1000,
+            "building": "BUSN",
+            "prof": "Aaron Campbell",
+            "classId": 35,
+            "time": 12
+        },
+        {
+            "subject": "COMM",
+            "number": 2340,
+            "building": "GANT",
+            "prof": "Brandon Kelly",
+            "classId": 36,
+            "time": 12
+        },
+        {
+            "subject": "ART",
+            "number": 2080,
+            "building": "GANT",
+            "prof": "Joseph Collins",
+            "classId": 37,
+            "time": 13
+        },
+        {
+            "subject": "PHYS",
+            "number": 3710,
+            "building": "SHH",
+            "prof": "Daniel Garcia",
+            "classId": 38,
+            "time": 16
+        },
+        {
+            "subject": "ECON",
+            "number": 3190,
+            "building": "SHH",
+            "prof": "Aaron Green",
+            "classId": 39,
+            "time": 12
+        },
+        {
+            "subject": "ECON",
+            "number": 1120,
+            "building": "TLS",
+            "prof": "Jacob Green",
+            "classId": 40,
+            "time": 10
         },
         {
             "subject": "CHEM",
-            "number": 2290,
+            "number": 3060,
+            "building": "BCH",
+            "prof": "Edward Cooper",
+            "classId": 41,
+            "time": 11
+        },
+        {
+            "subject": "PATH",
+            "number": 3200,
+            "building": "MONT",
+            "prof": "Caroline Mitchell",
+            "classId": 42,
+            "time": 18
+        },
+        {
+            "subject": "MSE",
+            "number": 3260,
+            "building": "TLS",
+            "prof": "Emily Gonzalez",
+            "classId": 43,
+            "time": 10
+        },
+        {
+            "subject": "WGSS",
+            "number": 1690,
             "building": "AUST",
-            "prof": "Charlotte Hughes",
-            "classId": 59
+            "prof": "Aaron Roberts",
+            "classId": 44,
+            "time": 18
+        },
+        {
+            "subject": "MKTG",
+            "number": 3230,
+            "building": "MCHU",
+            "prof": "Brandon Lewis",
+            "classId": 45,
+            "time": 10
+        },
+        {
+            "subject": "WGSS",
+            "number": 3120,
+            "building": "DRMU",
+            "prof": "Isabella Foster",
+            "classId": 46,
+            "time": 14
+        },
+        {
+            "subject": "CHIN",
+            "number": 1070,
+            "building": "AUST",
+            "prof": "Gabriel Mitchell",
+            "classId": 47,
+            "time": 16
+        },
+        {
+            "subject": "NURS",
+            "number": 1870,
+            "building": "MCHU",
+            "prof": "Alexander Jackson",
+            "classId": 48,
+            "time": 12
+        },
+        {
+            "subject": "PHIL",
+            "number": 3000,
+            "building": "GENT",
+            "prof": "Charlotte Hall",
+            "classId": 49,
+            "time": 11
+        },
+        {
+            "subject": "COMM",
+            "number": 2540,
+            "building": "PBS",
+            "prof": "Joseph Hill",
+            "classId": 50,
+            "time": 15
+        },
+        {
+            "subject": "BIOL",
+            "number": 2190,
+            "building": "MONT",
+            "prof": "Abigail Edwards",
+            "classId": 51,
+            "time": 12
+        },
+        {
+            "subject": "BUSI",
+            "number": 1000,
+            "building": "BCH",
+            "prof": "John Nelson",
+            "classId": 52,
+            "time": 18
+        },
+        {
+            "subject": "PATH",
+            "number": 3690,
+            "building": "ITE",
+            "prof": "David Bailey",
+            "classId": 53,
+            "time": 15
+        },
+        {
+            "subject": "CHIN",
+            "number": 3650,
+            "building": "ITE",
+            "prof": "Adam Hill",
+            "classId": 54,
+            "time": 12
+        },
+        {
+            "subject": "FNCE",
+            "number": 1200,
+            "building": "AUST",
+            "prof": "Angela Jackson",
+            "classId": 55,
+            "time": 10
+        },
+        {
+            "subject": "ART",
+            "number": 1720,
+            "building": "SHH",
+            "prof": "Angela Edwards",
+            "classId": 56,
+            "time": 14
+        },
+        {
+            "subject": "ERTH",
+            "number": 1430,
+            "building": "ITE",
+            "prof": "Jennifer Cooper",
+            "classId": 57,
+            "time": 17
+        },
+        {
+            "subject": "MKTG",
+            "number": 1050,
+            "building": "E2",
+            "prof": "Hannah Lee",
+            "classId": 58,
+            "time": 12
+        },
+        {
+            "subject": "PHIL",
+            "number": 1200,
+            "building": "AUST",
+            "prof": "Kevin Kelly",
+            "classId": 59,
+            "time": 12
         }
     ],
     "students": [
         {
-            "netid": "dny19965",
+            "netid": "uqo13363",
             "classes": [
-                1,
-                35,
-                9,
-                44,
-                25
+                2,
+                38,
+                16,
+                53,
+                54
             ],
-            "year": 2029
+            "year": 2025
         },
         {
-            "netid": "uto22619",
+            "netid": "quj19466",
             "classes": [
-                36,
-                40,
-                44,
-                50,
+                39,
+                15,
+                48,
+                47,
                 22
             ],
             "year": 2025
         },
         {
-            "netid": "xox13634",
+            "netid": "tde23045",
             "classes": [
-                2,
-                3,
-                43,
+                10,
+                14,
+                46,
                 15,
                 20
-            ],
-            "year": 2025
-        },
-        {
-            "netid": "aep19640",
-            "classes": [
-                12,
-                19,
-                51,
-                59,
-                29
             ],
             "year": 2027
         },
         {
-            "netid": "wmq28962",
+            "netid": "cdp21424",
             "classes": [
-                40,
-                43,
-                44,
-                21,
+                37,
+                10,
+                54,
+                55,
+                28
+            ],
+            "year": 2026
+        },
+        {
+            "netid": "kwk25397",
+            "classes": [
+                5,
+                48,
+                53,
+                28,
+                29
+            ],
+            "year": 2025
+        },
+        {
+            "netid": "rgd14231",
+            "classes": [
+                3,
+                42,
+                51,
+                27,
                 60
             ],
             "year": 2028
         },
         {
-            "netid": "qqi23547",
+            "netid": "vip11224",
             "classes": [
-                40,
-                13,
-                47,
-                21,
-                59
-            ],
-            "year": 2029
-        },
-        {
-            "netid": "ssx11107",
-            "classes": [
-                44,
-                50,
-                51,
-                53,
-                30
-            ],
-            "year": 2029
-        },
-        {
-            "netid": "fce29807",
-            "classes": [
+                32,
+                1,
                 45,
-                46,
-                52,
-                54,
-                27
-            ],
-            "year": 2026
-        },
-        {
-            "netid": "ckm14050",
-            "classes": [
-                41,
-                11,
-                45,
-                49,
-                28
+                20,
+                23
             ],
             "year": 2029
         },
         {
-            "netid": "vft20847",
+            "netid": "rbv14346",
             "classes": [
-                34,
                 37,
-                8,
+                6,
+                9,
                 10,
-                31
+                19
             ],
-            "year": 2026
+            "year": 2029
+        },
+        {
+            "netid": "qan28925",
+            "classes": [
+                1,
+                2,
+                39,
+                45,
+                57
+            ],
+            "year": 2027
+        },
+        {
+            "netid": "xem20113",
+            "classes": [
+                38,
+                9,
+                14,
+                50,
+                23
+            ],
+            "year": 2029
         }
     ]
 }
