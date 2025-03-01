@@ -14,6 +14,7 @@ This response recommends upcoming classes to take based of historical grades and
 **advisor.py** : Generates response using AI/ML for classes advice, also has a function for CLI\
 **AIstudentdata.py** : Generated "Mimic" Data to be used to train advisor.py\
 **/data** : holds csv files used for advisor.py machine learning.
+**finetunegpt2.py** : fine-tunes a GPT-2 model on the generated dataset applying tokenization, training with Trainer, and saving the final model.
 
 **app.py** : Flask app/API to serve files, route, run functions\
 **makedata.py** : Generate json data (database) for classes and students\
