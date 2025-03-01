@@ -1,14 +1,22 @@
 # Quantum Scheduling & AI Advisors
 
-**qaoa_scheduler.py** : Quantum algorithms to generate finals schedule\n
-**cqm_final_scheduler** : Very efficient, (Needs a Quantum Computer)\n
+Our project has two main functions.
 
-**advisor.py** : Generates response using AI/ML for classes advice, also has a function for CLI\n
-**/data** : holds csv files used for advisor.py machine learning\n
+Students deal with a lot of stress and the last thing we want is to have final scheduling conflicts.\
+We want to minimize these conflicts with students using a quantum final scheduler builder we created.
 
-**app.py** : Flask app/API to serve files, route, run functions\n
-**makedata.py** : Generate json data (database) for classes and students\n
-**scheduling.py** : Efficient algorithm to find optimal schedules\n
+The second focus is an AI advisor where given a netID and a query, we can return a personalized response.
+This response recommends upcoming classes to take based of historical grades and data, and more.
 
-**/templates or /static** : html and css files for frontend\n
+**qaoa_scheduler.py** : Quantum algorithms to generate finals schedule\
+**cqm_final_scheduler** : Very efficient, (Needs a DWave Quantum Annealer)
+
+**advisor.py** : Generates response using AI/ML for classes advice, also has a function for CLI\
+**/data** : holds csv files used for advisor.py machine learning
+
+**app.py** : Flask app/API to serve files, route, run functions\
+**makedata.py** : Generate json data (database) for classes and students\
+**scheduling.py** : Efficient algorithm to find optimal schedules
+
+**/templates or /static** : html and css files for frontend\
 **studentdata.json** : json data for classes and students
