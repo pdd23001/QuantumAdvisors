@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import final_scheduler
-import script
+import scheduling
 import hashlib
 import advisor as advis
 
@@ -26,7 +26,7 @@ def run_quantum():
 
 @app.route("/run_classical",methods=["POST"])
 def run_classical():
-    return jsonify(script.find_best())
+    return jsonify(scheduling.find_best())
 
 @app.route("/advisor")
 def advisor():
