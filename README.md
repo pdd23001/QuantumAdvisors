@@ -12,6 +12,7 @@ This response recommends upcoming classes to take based of historical grades and
 **cqm_final_scheduler** : Very efficient, (Needs a DWave Quantum Annealer)
 
 **advisor.py** : Generates response using AI/ML for classes advice, also has a function for CLI\
+**AIstudentdata.py** : Generated "Mimic" Data to be used to train advisor.py
 **/data** : holds csv files used for advisor.py machine learning
 
 **app.py** : Flask app/API to serve files, route, run functions\
