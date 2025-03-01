@@ -7,6 +7,15 @@ def randletter():
 def randomItem(arr):
     return arr[random.randint(0,len(arr)-1)]
 
+def randomClass():
+    x = random.random()
+    if x < .5:
+        return random.randint(0,50)
+    if x < .8:
+        return random.randint(51,90)
+    else:
+        return random.randint(91,149)
+    
 class Class:
     
     def __init__(self, subject, number, building, prof, classId, time):
@@ -63,18 +72,18 @@ for i in range(60):
     num = 10*random.randint(100,399)
     building = randomItem(buildings)
     prof = randomItem(first_names)+" " + randomItem(last_names)
-    time = random.randint(10,18)
+    time = random.randint(9,18)
     classes.append(Class(subject, num, building, prof, i, time))
 
 users = []
 
-for i in range(10):
+for i in range(200):
     lets = randletter()+randletter()+randletter()
-    nums = str(random.randint(10000,30000))
+    nums = str(random.randint(10000,29999))
     netid = lets+nums
     myclasses = set()
     while len(myclasses)<5:
-        myclasses.add(random.randint(0,len(classes)))
+        myclasses.add(randomClass())
     myclasses = list(myclasses)
     year = random.randint(2025,2029)
     users.append(Student(netid, myclasses,year))
