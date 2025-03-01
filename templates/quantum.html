@@ -3,8 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Scheduler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/quantum.css') }}">
 </head>
 <body>
-    <h1>Quantum</h1>
+    <div class="container">
+        <h1>Quantum Scheduler</h1>
+        <form id="quantumForm">
+            <label for="exams">Number of Exams:</label>
+            <input type="number" id="exams" name="exams" min="1" required>
+
+            <label for="slots">Number of Slots:</label>
+            <input type="number" id="slots" name="slots" min="1" required>
+
+            <!-- Quantum Algorithm Button (Primary) -->
+            <button type="button" id="runQuantum" class="quantum-btn">Run Quantum Algorithm</button>
+        </form>
+    </div>
+
+    <!-- Classical Algorithm Button (Separated) -->
+    <div class="classical-container">
+        <button type="button" id="runClassical" class="classical-btn">Run Classical Algorithm</button>
+    </div>
+
+    <script>
+        document.getElementById("runQuantum").addEventListener("click", async function() {
+            let exams = document.getElementById("exams").value;
+            let slots = document.getElementById("slots").value;
+            let response = await fetch('/run_quantum', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ exams: exams, slots: slots })
+            });
+
+            let result = await response.json();
+            alert(result.response);
+        });
+
+        document.getElementById("runClassical").addEventListener("click", async function() {
+            let response = await fetch('/run_classical', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: {}
+            });
+
+            let result = await response.json();
+            alert(result.response);
+        });
+    </script>
 </body>
 </html>

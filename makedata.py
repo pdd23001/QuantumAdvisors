@@ -10,11 +10,11 @@ def randomItem(arr):
 def randomClass():
     x = random.random()
     if x < .6:
-        return random.randint(0,10)
+        return random.randint(0,14)
     if x < .9:
-        return random.randint(11,30)
+        return random.randint(15,29)
     else:
-        return random.randint(31,44)
+        return random.randint(30,53)
     
 class Class:
     
@@ -68,7 +68,7 @@ buildings = [
 
 classes = []
 
-for i in range(45):
+for i in range(54):
     subject = randomItem(subjects)
     num = 10*random.randint(100,399)
     building = randomItem(buildings)
@@ -78,7 +78,7 @@ for i in range(45):
 
 users = []
 
-for i in range(500):
+for i in range(10000):
     lets = randletter()+randletter()+randletter()
     nums = str(random.randint(10000,29999))
     netid = lets+nums
