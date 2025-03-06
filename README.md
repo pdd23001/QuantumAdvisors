@@ -9,7 +9,8 @@ The second focus is an AI advisor where given a netID and a query, we can return
 This response recommends upcoming classes to take based of historical grades and data, and more.
 
 **qaoa_scheduler.py** : Quantum algorithms to generate finals schedule\
-**cqm_final_scheduler** : Very efficient, (Needs a DWave Quantum Annealer)
+**cqm_final_scheduler** : Very efficient, (Needs a DWave Quantum Annealer) [ Please check https://www.dwavesys.com/solutions-and-products/ocean/ for setup]
+
 
 **advisor.py** : Generates response using AI/ML for classes advice, also has a function for CLI\
 **AIstudentdata.py** : Generated "Mimic" Data to be used to train advisor.py\
